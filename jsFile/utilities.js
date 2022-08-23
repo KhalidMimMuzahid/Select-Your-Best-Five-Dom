@@ -135,3 +135,5 @@ const calculateTotal=document.getElementById("calculate-total");
 calculateTotal.addEventListener('click', () =>{
     updateCalculateTotal()
 })
+
+
