@@ -69,7 +69,8 @@ const controlKeyPressig = (field) => {
             inputField.target.value=pressedKey.slice(0, -1);
         }
     })
-}
+}   
+
 //  get inner valu of input 
 const getInnerValueById=(elementId)=>{
     const innerValueElement= document.getElementById(elementId);
