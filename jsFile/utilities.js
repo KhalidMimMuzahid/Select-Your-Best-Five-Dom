@@ -59,7 +59,7 @@ const controlKeyUp=(field)=>{
         }
     })
 }
-// control key pressing
+// control key pressing 
 const controlKeyPressig = (field) => {
     field.addEventListener('keypress', function(inputField){
         let pressedKey= inputField.target.value;
